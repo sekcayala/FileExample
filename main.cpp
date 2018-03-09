@@ -18,7 +18,7 @@ int main()
     cout<<"Opened file.\n";
   }
 
-  while( !infile.eof() )
+  while( !infile.eof() )  //while not at the end of file, please continue. eof = end of
   {
     infile>>num;
     numbers.push_back(num);
